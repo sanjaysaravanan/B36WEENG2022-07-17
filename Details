@@ -1,0 +1,52 @@
+Recap:
+
+  Events:
+    remove Events
+    bubbling ---> inside to outside progation of event ( child to parent)
+    capturing ---> outside to inside propgation of event ( parent to child )
+    stop progation ---> e.stopProgation();
+
+
+    event DOM create ( Click, Hover, Submit )
+
+
+Topics:
+
+  Callback
+
+  visualize how a Callback works
+
+    advantages of Callback
+      - reusability
+      - easy debugging/readability
+      - Modularize
+
+  sync & async operations
+
+    disadvantage of Callback
+      Callback Hell/ Pain of Callback
+  
+  Promise: 
+    Promise Object - completion or failure of an async operation
+    States:
+      pending: initial/default state, neither fulfilled nor rejected.
+      fulfilled: meaning that the operation was completed successfully.
+      rejected: meaning that the operation failed. with a reason
+    
+    Accessing Values or Fullfill/Reject:
+      then ---> executed when promise is Fullfilled
+      catch ---> executed when promise is rejected
+      finally for final statements irrespective fulfilled/reject ( usefule statement for closing a file/close the DB connection after a request )
+    
+    Promise Chain:
+      Chaining of fullfilled promise with help of then block 
+      Any error in the chain will break the chain and will caught in single catch block at end
+  
+
+  Next Session:
+    Promise all()
+    disadvantage of Promise: 
+      Too much of Chaining leads to uncertain behavior
+    fetch() & then()
+
+

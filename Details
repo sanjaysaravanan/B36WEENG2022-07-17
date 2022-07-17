@@ -48,5 +48,8 @@ Topics:
     disadvantage of Promise: 
       Too much of Chaining leads to uncertain behavior
     fetch() & then()
+    
+   Stop on an async action
+   web apis
 
 
